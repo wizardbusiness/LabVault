@@ -5,7 +5,7 @@
 
 [1]: https://www.youtube.com/watch?v=1id6ERvfozo
 #### Related Docs
-- [[Create an Ansible Inventory]]
+- [[Create Ansible Inventory]]
 - [[How to Create Ansible Playbooks]]
 ### *About Ansible Playbooks*
 

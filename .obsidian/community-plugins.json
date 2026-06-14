@@ -1,12 +1,11 @@
 [
-  "editor-width-slider",
-  "inline-admonitions",
   "obsidian-admonition",
-  "open-tab-settings",
-  "image-converter",
   "image-size",
-  "mehrmaid",
-  "mermaid-themes",
+  "mermaid-elk",
   "mermaid-popup",
-  "obsidian-image-toolkit"
+  "image-converter",
+  "templater-obsidian",
+  "open-tab-settings",
+  "obsidian-latex-suite",
+  "darlal-switcher-plus"
 ]

@@ -1,4 +1,4 @@
-
+   
 ```ad-info
 ##### *Requires **SQL Server** to have already been installed*
 ```
@@ -15,5 +15,10 @@ collapse: true
 	# Import to Trusted Root
 	Import-Certificate -FilePath "$env:TEMP\sqlserver.cer" -CertStoreLocation Cert:\LocalMachine\Root
 ```
+
+
+ 
+ 
+
 
 

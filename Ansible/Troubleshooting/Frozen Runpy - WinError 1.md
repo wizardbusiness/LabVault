@@ -8,7 +8,7 @@
 ##### Why it occurred
 - **Ansible on windows needs to run inside WSL and i was trying to run it in a Powershell session**
 ##### Fix 
-- **Started `WSL` session and retried command**
+- **Started `WSL` session and retried [[Command -- Bash#Definition|command]]**
 ##### More Info
 - [Ansible Installation Error On Windows - Ansible Forums][1]
 - [Stack Overflow Thread - Install Ansible Windows Machine][2]

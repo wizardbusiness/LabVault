@@ -7,7 +7,7 @@
 
 [1]: www.example.com
 #### See Also
-- [[Ansible inventory.ini vs inventory.yaml]]
+- [[Comparison - Ansible inventory.ini vs inventory.yaml]]
 ### *Info*
 ##### Context for the instructions here
 

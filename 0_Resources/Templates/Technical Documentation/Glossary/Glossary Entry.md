@@ -1,5 +1,0 @@
-### Entry
- 
-***Definition ***
-****
-

@@ -15,22 +15,26 @@
 ***
 ### Instructions
 
-#### A) Using `Get-Credential`
+#### A) Using Cmdlet - `Get-Credential`
 ##### 1. Invoke `Get-Credential` and enter a username and password in the form GUI. Store result in a variable
+***Note: Requires [[Input > User#Definition|user input]] and GUI access. Will not work in headless environments or scripts***
 ```ad-pscode
 collapse: true
-	# resuable credential
-	$credential = Get-Credential
+~~~powershell
+# resuable credential
+$credential = Get-Credential
+~~~
 ```
-**Note: Requires user input and GUI access. Will not work for automation or in headless environments**
 
 ***
-#### B)Using an instance of the `PSCredential` .Net class
+#### B) Using .Net Class - `PSCredential` 
 
 ##### 1. Store password as a secure string
 ```ad-pscode
 collapse: true
-	$password = ConvertTo-SecureString "<password>" -AsPlaintext -Force
+~~~powershell
+$password = ConvertTo-SecureString "<password>" -AsPlaintext -Force
+~~~
 ```
 ```ad-warning
 **Don't use `ConvertTo-SecureString` in production, it requires the password to be exposed as plaintext at some point in the session creating a security vulnerability. Use a key vault like Azure Key Vault, or the Credential-Manager powershell module**
@@ -38,6 +42,8 @@ collapse: true
 ##### 2. Create the credential and store in a variable 
 ```ad-pscode
 collapse: true
-	$credential = [PSCredential]::New("<Username>", $password)
+~~~powershell
+$credential = [PSCredential]::New("<Username>", $password)
+~~~
 ```
 

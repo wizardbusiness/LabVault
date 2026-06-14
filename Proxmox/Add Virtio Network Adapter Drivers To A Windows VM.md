@@ -18,6 +18,7 @@ collapse: true
 collapse: true
 	pnputil /add-driver <DriveLetter>:\NetKVM\<OS-version>\amd64\*.inf /install
 ```
+
 ```ad-tip
 **For windows server 2022 use the windows 11 network drivers located in the `'NetKVM\w11'` directory**
 ```

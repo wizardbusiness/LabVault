@@ -7,11 +7,11 @@
     color: orange;
 }
 
-.el-h3 h3, h3 em, .markdown-rendered h3,.HyperMD-header-3, .HyperMD-header-3 > .cm-em{
+.el-h3 h3, .markdown-rendered h3,.HyperMD-header-3, .HyperMD-header-3 > .cm-em{
     color: #6da800;
 }
 
-.el-h6 h6, h6 em, .markdown-rendered h6,.HyperMD-header-6, .HyperMD-header-6 > .cm-em{
+.el-h6 h6, h6 em, .markdown-rendered h6,.HyperMD-header-6 {
     /* color: #6aa8d4; */
     color: #5288d3;
 }
@@ -19,7 +19,7 @@
 .markdown-rendered .internal-link {
     /* color: color-mix(in srgb, currentColor, #dddddd 16%); */
     color: currentColor;
-    background-color: color-mix(in srgb, #682aec, transparent 90%); 
+    background-color: color-mix(in srgb, #682aec, transparent 99%); 
     padding: 0.10em 0.10em;
     font-weight: 500;
 
@@ -33,5 +33,64 @@
     font-weight: inherit;
 }
 
+.markdown-embed .markdown-embed-content [data-heading=Steps] {
+    display: none;
+}
 
 
+.markdown-embed {
+    border: none;
+    border-radius: 1%;
+    background-color: color-mix(in srgb, var(--background-primary), white 2%) !important;
+    padding: 1%;
+
+}
+
+.markdown-embed-content > .show-indentation-guide {
+    padding: 2% !important;
+}
+
+
+
+
+.callout [data-callout=decomp] {
+    /* background-color: color-mix(in srgb, var(--background-secondary) 80%, rgb(73, 0, 73)) !important; */
+    background-color: color-mix(in srgb, var(--background-secondary) 70%, rgb(25, 11, 103)) !important;
+    border-color: rgb(81, 29, 105);
+    /* border-style: dashed */
+
+}
+
+.callout [data-callout=tip] {
+    /* background-color: color-mix(in srgb, #074b57, transparent 30%) !important; */
+    /* background-color: color-mix(in srgb, #104b56, var(--background-secondary) 70%) !important; */
+    background-color: color-mix(in srgb, rgb(14, 108, 125), var(--background-secondary) 70%) !important;
+
+
+    /* background-color: #004952 !important; */
+    /* background-color: color-mix(in srgb, var(--background-secondary) 90%, rgb(7, 7, 33)) !important; */
+    border-color: rgb(28, 96, 133)
+
+}
+
+.callout [data-callout=important] {
+    /* background-color: color-mix(in srgb, var(--background-secondary), rgb(127, 210, 255) 15%) !important; */
+    /* background-color: color-mix(in srgb, var(--background-secondary) 90%, rgb(7, 7, 33)) !important; */
+    border-color: rgb(127, 210, 255)
+    /* background-color: #004952 !important; */
+    /* background-color: color-mix(in srgb, var(--background-secondary) 80%, transparent) !important; */
+}
+
+.callout [data-callout=detail] {
+    border: 1px;
+}
+
+.callout .callout {
+    border-radius: 7px;
+    border-width: 2px
+}
+
+/* 
+ol {
+    list-style-type: lower-alpha
+} */

@@ -1,6 +1,5 @@
 ### ***Add a custom icon for an application***
 
-
 ### *Easy Way - Edit app .desktop file*
 
 ```ad-warning
@@ -8,11 +7,11 @@
 ```
 
 #### 1. Copy the system desktop file for target app to user directory to override its system desktop file
-```ad-bash
-collapse: true
-	cp /usr/share/applications/<your-application>.desktop ~/.local/share/applications/
-```
 
+> [!bash]- bash
+> ~~~bash
+> cp /usr/share/applications/<your-application>.desktop ~/.local/share/applications/
+> ~~~
 #### 2. Edit the file in a text editor like Nano
 ```ad-bash
 collapse: true

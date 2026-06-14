@@ -1,7 +1,7 @@
 ##### ***Use To***  Learn how to make an ansible playbook
 
 #### Prerequisites
-- [[Create an Ansible Inventory]]
+- [[Create Ansible Inventory]]
 #### Additional References
 1.  [Playbook Definition Check - Claude][1]
 2.  [Creating a Playbook - Ansible Docs][2] 

@@ -1,0 +1,43 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_Resources/Templates/Templater",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "_Resources/Templates/Templater/Wrap Selection in Callout.md",
+    "_Resources/Templates/Templater/Fetch Webpage as markdown.md",
+    "_Resources/Templates/Templater/Indent Selection.md",
+    "_Resources/Templates/Templater/Remove Indent From Selection.md",
+    "_Resources/Templates/Templater/Select Current Line.md",
+    "_Resources/Templates/Templater/RemoveLineBreaks.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

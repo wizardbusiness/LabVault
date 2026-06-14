@@ -4,65 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "5c37cb90c7aac9da",
+        "id": "8700bc1f7f6d9102",
         "type": "tabs",
         "children": [
           {
-            "id": "ff9bf9f99dc398f6",
+            "id": "28dc7313c7b8b9ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Playbooks/Playbook Examples.md",
+                "file": "Self-Branding/Posts/Introducing RIICH - Documentation V2 -- 04-23-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Playbook Examples"
+              "title": "Introducing RIICH - Documentation V2 -- 04-23-27"
             }
           },
           {
-            "id": "24c89f69bb6129dc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Proxmox/static/image.png"
-              },
-              "icon": "lucide-image",
-              "title": "image"
-            }
-          },
-          {
-            "id": "c7cb52e107f4f916",
+            "id": "3b12047572b8fe98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/5 Powershell Steps.md",
+                "file": "_Resources/Templates/Templater/Fetch Ferry Schedule.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Powershell Steps"
-            }
-          },
-          {
-            "id": "621786f2bc1821b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Domain Management/Active Directory/Add Computer to a Domain.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Add Computer to a Domain"
+              "title": "Fetch Ferry Schedule"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/bash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 593.5
+    "width": 445.50152587890625
   },
   "right": {
     "id": "c9b9779999fb594b",
@@ -135,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Python/Install Python From CLI.md",
+                "file": "_Resources/Glossary/Passphrase -SSH-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Install Python From CLI"
+              "title": "Backlinks for Passphrase -SSH-"
             }
           },
           {
@@ -154,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxmox/QM Create - NEW VM.md",
+                "file": "_Resources/Glossary/Passphrase -SSH-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QM Create - NEW VM"
+              "title": "Outgoing links from Passphrase -SSH-"
             }
           },
           {
@@ -205,8 +178,21 @@
               "icon": "lucide-list",
               "title": "Outline of QM Create - NEW VM"
             }
+          },
+          {
+            "id": "9ab9223140738b7a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "SQL/SQL Server 2025 - Windows Server Core/Shell/Powershell Modules/SqlServer/Install SqlServer PSModule.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Install SqlServer PSModule"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -221,57 +207,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "24c89f69bb6129dc",
+  "active": "28dc7313c7b8b9ce",
   "lastOpenFiles": [
-    "Networking/Default Route.md",
-    "Proxmox/Add Virtio Network Adapter Drivers To A Windows VM.md",
-    "Ansible/Playbooks/How to Create Ansible Playbooks.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Troubleshooting/Error Doc Template.md",
-    "Ansible/Troubleshooting/Frozen Runpy - WinError 1.md",
-    "Ansible/Ansible on Windows/Windows Collections/Active Directory Collection/Install Active Directory Collection.md",
-    "Ansible/Ansible on Windows/Windows Collections/Active Directory Collection/static/image.png",
-    "Ansible/Troubleshooting/Host Unreachable - Failed to establish a new connection.md",
-    "Ansible/Ansible on Windows/Ansible Windows Collections/Active Directory Collection/static/image-1.png",
-    "Ansible/Ansible on Windows/Configure a Windows Host for Ansible.md",
-    "Ansible/Playbooks/Playbook Examples.md",
-    "Ansible/Ansible on Windows/Windows Collections/Active Directory Collection/static",
-    "Ansible/Ansible on Windows/Windows Collections/Active Directory Collection",
-    "Ansible/Ansible on Windows/Windows Collections",
-    "Ansible/Playbooks/About Ansible Playbooks.md",
-    "Ansible/Ansible Inventory/Create an Ansible Inventory.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Header Templates/Header Section Template.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/5 Powershell Steps.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/3 Powershell Steps.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/3 Bash Steps.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/1 Python Step.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/1 Powershell Steps.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/1 Code Step.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/1 Bash Step.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps/Under-Construction-Instructions Step.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instructions Doc Template.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Under-Construction-Instructions Template.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Getting Started Doc Template.md",
-    "_Technical_Posting/LinkedIn/Experimenting With Documentation 1-22-26.md",
-    "_Technical_Posting/LinkedIn",
-    "Ansible/Ansible on Windows/Add Windows Host to an Ansible Inventory.md",
-    "_Technical_Posting",
-    "Ansible/Playbooks/Windows Server 2022 Core.md",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates/Instruction Steps",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Header Templates/Header Snippets",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Header Templates",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Sections",
-    "0_Resources/Templates/Technical Documentation/Doc Templates/Instructions Templates",
-    "Ansible/Troubleshooting/static/image-4.png",
-    "Ansible/Troubleshooting/static/image-3.png",
-    "Ansible/Troubleshooting/static/image-2.png",
-    "Ansible/Troubleshooting/static/image-1.png",
-    "Ansible/Troubleshooting/static/image.png",
-    "Windows/Domain Management/Active Directory/static/image.png",
-    "Windows/Network/SSH/static/image-1.png",
-    "Windows/Network/SSH/static/image.png",
+    "_Resources/Templates/Templater/Fetch Ferry Schedule.md",
+    "_Resources/Templates/Templater/Fetch Webpage as markdown.md",
+    "Bash/Commands/Wget.md",
+    "Bash/Commands/Bash Cheatsheet - Debian.md",
+    "Bash/Commands/Curl.md",
+    "Linux/Arch/GNOME/Tools/Switch Primary or Secondary Display Mode.md",
+    "Python/Working with Deeply Nested Data Types/Nested JSON object - EXAMPLE.md",
+    "Python/Working with Deeply Nested Data Types/Using Recursion To Wrangle Info from Trees/Collect Active Projects from Data.md",
+    "Self-Branding/Posts/Introducing RIICH - Documentation V2 -- 04-23-27.md",
+    "Linux/Debian/Apt Source List.md",
+    "Python/Regular Expressions/Regex Cheat Sheet.md",
+    "Bash/Getting Started With Bash.md",
+    "_Resources/Glossary/Subcommand -CLI-.md",
+    "_Resources/Templates/Documentation Templates/Doc Templates/Code Snippets/Powershell Snippet -- Composition.md",
+    "_Resources/Templates/Documentation Templates/Doc Templates/About Doc Template.md",
+    "Self-Branding/Posts/06-01-2025.md",
+    "Self-Branding/Posts/Documentation is Broken.md",
+    "Python/Built In Functions/Reduce.md",
+    "Windows/Windows Server 2022/Proget/SQL Server Backend/Create New Proget Login.md",
+    "Python/Regular Expressions",
+    "Python/Working with Deeply Nested Data Types/Using Recursion To Wrangle Info from Trees/Collect String Values from Data.md",
+    "Linux/Storing Credentials On Linux.md",
+    "Untitled",
+    "Python/Working with Deeply Nested Data Types/Using Recursion To Wrangle Info from Trees",
+    "_Resources/Templates/Templater/RemoveLineBreaks.md",
+    "_Resources/Templates/Templater/Wrap Selection in Callout.md",
+    "_Resources/Templates/Templater/TestTemplatesHere.md",
+    "Untitled 1.md",
+    "_Resources/Templates/Templater/Indent Selection.md",
+    "Linear Algebra/Media/Screencast From 2026-04-21 22-10-18.mp4",
+    "Linear Algebra/Media",
+    "_Resources/Glossary/Untitled",
+    "Linear Algebra",
+    "NLP/Pre-Training Analysis/Visualization",
+    "NLP/Pre-Training Analysis",
+    "NLP/architecture.svg",
+    "NLP/pipeline.svg",
+    "Linux/Arch/GNOME/Gnome Shell Extensions",
+    "Ansible/Ansible Inventory/Ansible Ad-Hoc Commands/static/image.png",
+    "Learning Obsidian/Mermaid/Mehrmaid/static/image.png",
+    "Backup and Data Storage/Restic/static/image-19.png",
+    "Backup and Data Storage/Restic/static/image-18.png",
+    "Backup and Data Storage/Restic/static/image-17.png",
+    "Backup and Data Storage/Restic/static/image-16.png",
+    "Backup and Data Storage/Restic/static/image-15.png",
+    "Backup and Data Storage/Restic/static/image-14.png",
     "Windows/Windows Server/Windows Server Core 2022/Setup New Domain Controller/Untitled.canvas"
   ]
 }

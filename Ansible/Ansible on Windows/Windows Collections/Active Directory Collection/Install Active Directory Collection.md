@@ -23,15 +23,15 @@ collapse: true
 ###### Code Snippet Decomposition
 
 **Syntax**
-- `ansible-galaxy` **<parent command\> - cli tool included with `ansible` for finding community roles and collections** 
-- `collection` **<subcommand\> for `ansible-galaxy`.  Specifies that you are looking for a collection specifically**
+- `ansible-galaxy` **Parent command- cli tool included with `ansible` for finding community roles and collections** 
+- `collection` **Subcommand.  Specifies that you are looking for a collection within the output of `ansible-galaxy`**
 - `install`**<action\> to be performed on the collection being targeted**
-- `microsoft.ad` **<target\> of the command, the collection that will be installed**
+- `microsoft.ad` **<target\> of the [[Command -- Bash#Definition|command]], the collection that will be installed**
 
 **Synthesis**
-1. `ansible-galaxy` + `collection` **<parent command\> + <subcommand\>; `collection` modifies the behaviour of the parent command `ansible-galaxy` to act on collections specifically**
-2. `install` + `microsoft.ad` **<action\> + <target\>; Combines with the above compound-command to install the `microsoft.ad` collection**
-3. `ansible-galaxy collection install micorosft.ad` **<parent command\> + <subcommand\> + <action\> + <target\>; finds the micorosoft.ad collection in the ansible galaxy community repository and installs it.**
+1. `ansible-galaxy` + `collection` **<parent [[Command -- Bash#Definition|command]]\> + <sub[[Command -- Bash#Definition|command]]\>; `collection` modifies the behaviour of the parent [[Command -- Bash#Definition|command]] `ansible-galaxy` to act on collections specifically**
+2. `install` + `microsoft.ad` **<action\> + <target\>; Combines with the above compound-[[Command -- Bash#Definition|command]] to install the `microsoft.ad` collection**
+3. `ansible-galaxy collection install micorosft.ad` **<parent [[Command -- Bash#Definition|command]]\> + <sub[[Command -- Bash#Definition|command]]\> + <action\> + <target\>; finds the micorosoft.ad collection in the ansible galaxy community repository and installs it.**
 ###### Technical terms and definitions
 - *`Ansible Galaxy`:* ***Included with Ansible core installation. A public repository and command-line tool maintained by Redhat/Ansible. Used for sharing, discovering, and installing pre-built Ansible roles and collections that automate common IT tasks.***
 - *`Collection`:* ***A standardized distribution format that bundles together related Ansible content including playbooks, roles, modules, and plugins into a single, versioned package for easier sharing and management. Can be downloaded via the `ansible-galaxy` cli tool.***
@@ -45,7 +45,7 @@ collapse: true
 - **Used `ansible-galaxy` cli tool to download the `microsoft.ad` collection**
 ###### Key concepts that give important context for understanding whats being done in this step
 - **`WSL` allows UNIX-based applications like Ansible to work on windows**
-- **`CLI Tools` are applications that can be invoked with arguments from the Command Line to accomplish tasks**
+- **`CLI Tools` are applications that can be invoked with arguments from the [[Command -- Bash#Definition|command]] Line to accomplish tasks**
 - **`Repositories `like Ansible Galaxy are online platforms where people can upload, share and obtain useful resources and tools for software development, operations, automation, and system administration. Think GitHub for sourcecode version control and distribution, npm registry for Javascript pacakges, or PyPI for finding python packages.** 
 
 #### *Troubleshooting*

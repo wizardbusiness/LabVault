@@ -1,11 +1,23 @@
 
-
-```mehrmaid
-
-graph TD
-    A
-
-A("**Click on the image below to get a larger preview**<br/><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/1024px-2023_Obsidian_logo.svg.png' width=160 />")
-
-```
+> [!tip]-
+>```mermaid
+>---
+>config: 
+>  layout: "elk"
+>  theme: forest
+>  themeVariables: 
+>    lineColor: '#F8B229'
+>---
+>
+>graph TD
+>    A --> B
+>    B --> C
+>    C --> A
+>
+>A([Proxmox/static/image.png])
+>B("Hello")
+>
+>class A internal-link
+>
+>```
 
